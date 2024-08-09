@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/NASA_SpaceWeb/static/css/main.e6c13ad2.css",
+    "main.js": "/NASA_SpaceWeb/static/js/main.7215f6d1.js",
+    "static/js/453.e3e43e93.chunk.js": "/NASA_SpaceWeb/static/js/453.e3e43e93.chunk.js",
+    "index.html": "/NASA_SpaceWeb/index.html",
+    "main.e6c13ad2.css.map": "/NASA_SpaceWeb/static/css/main.e6c13ad2.css.map",
+    "main.7215f6d1.js.map": "/NASA_SpaceWeb/static/js/main.7215f6d1.js.map",
+    "453.e3e43e93.chunk.js.map": "/NASA_SpaceWeb/static/js/453.e3e43e93.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.7215f6d1.js"
+  ]
+}
