@@ -26,8 +26,8 @@ function SolarSystem() {
   };
 
   return (
-    <div>
-      <Canvas style={{ height: '80vh', background: 'black' }}>
+    <div style={{ display: 'flex' }}>
+      <Canvas style={{ height: '70vh', background: 'black', flex:4 }}>
         <ambientLight intensity={0.5} />
         <pointLight position={[10, 10, 10]} />
         <Stars />
@@ -46,7 +46,7 @@ function SolarSystem() {
       </Canvas>
       
       {selectedPlanet && (
-        <div style={{ padding: '20px', backgroundColor: 'white', textAlign: 'center' }}>
+        <div style={{ padding: '20px', backgroundColor: 'white', textAlign: 'center', flex:1 }}>
           <h2>{selectedPlanet.name}</h2>
           <p>{selectedPlanet.description}</p>
         </div>
