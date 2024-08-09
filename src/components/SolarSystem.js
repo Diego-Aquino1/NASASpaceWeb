@@ -17,6 +17,14 @@ const planets = [
 function SolarSystem() {
   const [selectedPlanet, setSelectedPlanet] = useState(null);
 
+  const handleClick = (planetName) => {
+    setSelectedPlanet(planetName);
+  };
+
+  const handleClose = () => {
+    setSelectedPlanet(null);
+  };
+
   return (
     <div>
       <Canvas style={{ height: '80vh', background: 'black' }}>
